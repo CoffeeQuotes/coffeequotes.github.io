@@ -1,0 +1,44 @@
+- name: HTML/CSS
+  value: 100
+  desc: HTML and CSS are two of the core technologies for building Web pages. HTML provides the structure of the page, CSS the layout, for a variety of devices.
+  src: assets/img/skill-1.png
+
+- name: Javascript
+  value: 85
+  desc: JavaScript (JS) is a lightweight, interpreted, or just-in-time compiled programming language with first-class functions.
+  src: assets/img/skill-9.png
+
+- name: PHP
+  value: 100
+  desc: A popular general-purpose scripting language, especially for web development. Fast, flexible and pragmatic, PHP powers everything.
+  src: assets/img/skill-8.png
+
+- name: Laravel
+  value: 90
+  desc: Laravel is a web application framework with expressive, elegant syntax. It helps developers to create without worrying about small things.
+  src: assets/img/skill-7.png
+
+- name: Codeigniter
+  value: 65
+  desc: CodeIgniter is a powerful PHP framework with a very small footprint, simple and elegant toolkit to create full-featured web applications.
+  src: assets/img/skill-6.png
+
+- name: Node js
+  value: 80
+  desc: Node.js® is an open-source, cross-platform JavaScript runtime environment.
+  src: assets/img/skill-5.png
+
+- name: Express js
+  value: 75
+  desc: Express is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications.
+  src: assets/img/skill-4.png
+
+- name: Docker
+  value: 80
+  desc: Docker is a set of platform as a service products that use OS-level virtualization to deliver software in packages called containers. 
+  src: assets/img/skill-3.png
+
+- name: Tailwind
+  value: 90
+  desc: A utility-first CSS framework packed with classes like flex, pt-4, text-center and rotate-90 that can be composed to build any design, directly in your markup.
+  src: assets/img/skill-1.png

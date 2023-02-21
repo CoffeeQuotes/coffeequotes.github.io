@@ -1,0 +1,11 @@
+- name: Front-end Development
+  desc: I have expertise using HTML5 and CSS3 approaches as a javascript developer, working with jQuery or more complex javascript MVC frameworks like react, vuejs etc.
+  src: assets/img/frontend.png
+
+- name: Back-end Development
+  desc: I've developed services handling thousands of users, including REST APIs, e-learning application using php frameworks like Laravel, Codeigniter or Node Js frameworks like Express Js.
+  src: assets/img/backend.png
+
+- name: Consultancy
+  desc: I can help you decide on strategic roadmaps in addition to offering development services.
+  src: assets/img/consult.png
