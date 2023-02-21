@@ -1,0 +1,36 @@
+- title: Namastey india icecream
+  link: https://www.namasteindiaicecream.com/
+  desc: Lorem Ipsum doler sit amet
+  src: assets/img/pr-3.png
+  dataTarget: portfolioItem1
+
+- title: Truebyl
+  link: https://www.truebyl.com/
+  desc: Lorem Ipsum doler sit amet
+  src: assets/img/pr-2.png
+  dataTarget: portfolioItem2
+
+- title: Eicher Bus and Trucks
+  link: https://www.eichertrucksandbuses.com/
+  desc: Lorem Ipsum doler sit amet
+  src: assets/img/pr-1.png
+  dataTarget: portfolioItem3
+
+- title: Fractify 
+  link: https://www.fractify.io/
+  desc: Lorem Ipsum doler sit amet
+  src: assets/img/pr-4.png
+  dataTarget: portfolioItem4
+
+- title: Daawat
+  link: https://www.daawat.com/home
+  desc: Lorem Ipsum doler sit amet
+  src: assets/img/pr-5.png
+  dataTarget: portfolioItem5
+
+- title: Raymond Consumer Care Ltd.
+  link: https://raymondconsumercare.com/
+  desc: Lorem Ipsum doler sit amet
+  src: assets/img/pr-6.png
+  dataTarget: portfolioItem6
+

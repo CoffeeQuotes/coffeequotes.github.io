@@ -53,14 +53,14 @@ layout: default
             <div class="row" style="display: flex; flex-wrap: wrap; align-items: flex-start; justify-content: space-between;">
                 {% for skill in site.data.skills %}
                    <div class="col-md-3">
-                    <div class="skill" style="margin-top: 12px;;">
+                    <div class="skill" style="margin-top: 12px;">
                         
                         <h4 class=""><img src="{{ skill.src }}" alt="Front End Developer" width="48px" height="48px"> {{ skill.name }}</h4>
                         <div class="progress">
                             <div class="progress-bar" role="progressbar" data-transitiongoal="{{ skill.value }}"></div>
                             <!-- /.progress-bar -->
                         </div><!-- /.progress -->
-                        <p style="color: rgb(71,85, 105)"><small>{{ skill.desc }}</small></p>
+                        <p style="color: rgb(71,85, 105); margin-top: 18px" ><small>{{ skill.desc }}</small></p>
                     </div><!-- /.skill -->
                    </div>
                     {% endfor %}
@@ -97,72 +97,20 @@ layout: default
                 <img src="assets/img/lines.svg" class="img-lines" alt="lines">
             </div>
             <div class="row">
+                {% for project in site.data.projects %}
                 <div class="col-md-4 col-xs-6">
                     <div class="portfolio-item">
-                        <img src="assets/img/portfolio-1.jpg" class="img-res" alt="">
+                        <img src="{{ project.src }}" class="img-res" alt="">
                         <div class="portfolio-item-info">
-                            <h4>Project Title</h4>
-                            <a href="#" data-toggle="modal" data-target="#portfolioItem1"><span
+                            <h4>{{ project.title }}</h4>
+                            <a href="#" data-toggle="modal" data-target="#{{ project.dataTarget }}"><span
                                     class="glyphicon glyphicon-eye-open"></span></a>
-                            <a href="#"><span class="glyphicon glyphicon-link"></span></a>
+                            <a href="{{ project.link }}"><span class="glyphicon glyphicon-link"></span></a>
                         </div><!-- /.portfolio-item-info -->
                     </div><!-- /.portfolio-item -->
                 </div>
-                <div class="col-md-4 col-xs-6">
-                    <div class="portfolio-item">
-                        <img src="assets/img/portfolio-2.jpg" class="img-res" alt="">
-                        <div class="portfolio-item-info">
-                            <h4>Project Title</h4>
-                            <a href="#" data-toggle="modal" data-target="#portfolioItem2"><span
-                                    class="glyphicon glyphicon-eye-open"></span></a>
-                            <a href="#"><span class="glyphicon glyphicon-link"></span></a>
-                        </div><!-- /.portfolio-item-info -->
-                    </div><!-- /.portfolio-item -->
-                </div>
-                <div class="col-md-4 col-xs-6">
-                    <div class="portfolio-item">
-                        <img src="assets/img/portfolio-3.jpg" class="img-res" alt="">
-                        <div class="portfolio-item-info">
-                            <h4>Project Title</h4>
-                            <a href="#" data-toggle="modal" data-target="#portfolioItem3"><span
-                                    class="glyphicon glyphicon-eye-open"></span></a>
-                            <a href="#"><span class="glyphicon glyphicon-link"></span></a>
-                        </div><!-- /.portfolio-item-info -->
-                    </div><!-- /.portfolio-item -->
-                </div>
-                <div class="col-md-4 col-xs-6">
-                    <div class="portfolio-item">
-                        <img src="assets/img/portfolio-4.jpg" class="img-res" alt="">
-                        <div class="portfolio-item-info">
-                            <h4>Project Title</h4>
-                            <a href="#" data-toggle="modal" data-target="#portfolioItem4"><span
-                                    class="glyphicon glyphicon-eye-open"></span></a>
-                            <a href="#"><span class="glyphicon glyphicon-link"></span></a>
-                        </div><!-- /.portfolio-item-info -->
-                    </div><!-- /.portfolio-item -->
-                </div>
-                <div class="col-md-4 col-xs-6">
-                    <div class="portfolio-item">
-                        <img src="assets/img/portfolio-5.jpg" class="img-res" alt="">
-                        <div class="portfolio-item-info">
-                            <h4>Project Title</h4>
-                            <a href="#" data-toggle="modal" data-target="#portfolioItem5"><span
-                                    class="glyphicon glyphicon-eye-open"></span></a>
-                            <a href="#"><span class="glyphicon glyphicon-link"></span></a>
-                        </div><!-- /.portfolio-item-info -->
-                    </div><!-- /.portfolio-item -->
-                </div>
-                <div class="col-md-4 col-xs-6">
-                    <div class="portfolio-item">
-                        <img src="assets/img/portfolio-6.jpg" class="img-res" alt="">
-                        <div class="portfolio-item-info">
-                            <h4>Project Title</h4>
-                            <a href="#" data-toggle="modal" data-target="#portfolioItem6"><span
-                                    class="glyphicon glyphicon-eye-open"></span></a>
-                            <a href="#"><span class="glyphicon glyphicon-link"></span></a>
-                        </div><!-- /.portfolio-item-info -->
-                    </div><!-- /.portfolio-item -->
-                </div>
+                {% endfor %}
+                
             </div>
         </div>
     </section><!-- /.secton-portfolio -->
